@@ -2,7 +2,7 @@
 	position: absolute;
 	top: 0%;
 	left: 5%;
-	opacity: 0.5;
+	opacity: 2;
 }
 
 .lname {
@@ -24,6 +24,4 @@ h1 {
 	position: absolute;
 	top: 30%;
 	left: 20%;
-	height: 600px;
-	width: 600px;
 }
