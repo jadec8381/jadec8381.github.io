@@ -4,11 +4,19 @@
 	left: 10%;
 }
 
+.lname {
+	position: absolute;
+	top: 10%;
+	left: 65%;
+
+}
+
 h1 {
 	font-family: "Dosis";
 	font-weight: medium;
 	letter-spacing: 25pt;
 	font-size: 65pt;
 	color: rgb(0,0,0);
-	z-index: 150;
+	z-index: 120;
 }
+
