@@ -20,5 +20,7 @@ h1 {
 }
 
 .img {
-	max-height: 100%;
+	position: absolute;
+	top: 30%;
+	left: 20%;
 }
