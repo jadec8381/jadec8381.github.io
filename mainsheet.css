@@ -16,7 +16,7 @@ h1 {
 	letter-spacing: 25pt;
 	font-size: 65pt;
 	color: rgb(0,0,0);
-	z-index: 150;
+	z-index: 100;
 }
 
 .img {
