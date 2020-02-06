@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	background: #ffedc9;
+	background: linear-gradient (to bottom right, #66ff66 0%, #ff3399 100%);
 	height: 100vh;
 	display: grid;
 	margin: 0;
