@@ -1,13 +1,22 @@
 .fname {
 	position: absolute;
 	top: 0%;
+<<<<<<< HEAD
 	left: 5%;
+=======
+	left: 55%;
+>>>>>>> 041ab17dfc527d0485afc7003a41738ae4868d70
 }
 
 .lname {
 	position: absolute;
+<<<<<<< HEAD
 	top: 10%;
 	left: 50%;
+=======
+	top: 35%;
+	left: 55%;
+>>>>>>> 041ab17dfc527d0485afc7003a41738ae4868d70
 
 }
 
@@ -17,7 +26,11 @@ h1 {
 	letter-spacing: 25pt;
 	font-size: 65pt;
 	color: rgb(0,0,0);
+<<<<<<< HEAD
 	z-index: 150;
+=======
+	z-index: 200;
+>>>>>>> 041ab17dfc527d0485afc7003a41738ae4868d70
 }
 
 .img {
