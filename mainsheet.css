@@ -44,7 +44,7 @@ h1 {
 	height: 600px;
 	width: 800px;
 	top: 50%;
-	right: 10%;
+	right: 80%;
 	height: 100px;
 	width: 250px;
 	z-index: 99;
@@ -57,4 +57,5 @@ h1 {
 	height: 600px;
 	width: 800px;
 	z-index: 99;
+	top: 0%;
 }
