@@ -1,0 +1,1297 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-image: linear-gradient(180deg, rgba(152,173,203,0) 0%, rgba(3,37,83,1) 100%);
+  font-size: 1.8rem;
+  line-height: 0;  
+  margin: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(.2);
+  }
+  20% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(.4);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(2.3);
+  }
+}
+
+.content {
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  line-height: 0;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 99;
+  
+}
+.element-container {
+  display: inline-block;
+  transition: all .5s;
+  margin: .4rem;
+  top: 10%;
+  bottom: 10%;
+}
+
+.element-container-interaction {
+  transform: translate('-80px','-80px');
+  transform: rotate(500deg);
+  transform: scale(1.1);
+}
+
+.element-01 {
+  position: center;
+  width: 4rem;
+  height: 4rem;
+  border-left: 50px solid hsl(355, 90%, 45%);
+  border-top: 50px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .05s;
+  animation-iteration-count: infinite;
+  animation: bounce .5s 0.2s infinite;
+  opacity: .5;
+}
+
+.element-02 {
+  width: 4rem;
+  height: 4rem;
+  border-left: 80px solid hsl(355, 90%, 45%);
+  border-top: 80px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 4 infinite;
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .1s;
+  animation-iteration-count: infinite;
+  animation: bounce .8s 0.25s infinite;
+  opacity: .5;
+}
+
+.element-03 {
+  top: 20px;
+  left: 50px;
+  border-left: 40px solid hsl(355, 90%, 45%);
+  border-top: 40px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  position: repeat;
+  display: inline-block;
+  animation-name: pulse;
+  animation: pulse 3 infinite;
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 2s 0.02s infinite;
+  opacity: .5;
+}
+
+.element-04 {
+  top: 200px;
+  right: 50px;
+  border-left: 50px solid hsl(355, 90%, 45%);
+  border-top: 50px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1s 1s infinite;
+  opacity: .5;
+}
+
+.element-05 {
+  top: 200px;
+  right: 50px;
+  border-left: 200px solid hsl(355, 90%, 45%);
+  border-top: 200px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 2s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-06 {
+  top: 200px;
+  right: 50px;
+  border-left: 150px solid hsl(355, 90%, 45%);
+  border-top: 150px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.2s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-07 {
+  top: 200px;
+  right: 50px;
+  border-left: 20px solid hsl(355, 90%, 45%);
+  border-top: 20px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.5s 1s infinite;
+  opacity: .5;
+}
+
+.element-08 {
+  top: 200px;
+  right: 50px;
+  border-left: 300px solid hsl(355, 90%, 45%);
+  border-top: 300px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.5s 0.5s infinite;
+  opacity: .5;
+}
+
+.element-09 {
+  top: 200px;
+  right: 50px;
+  border-left: 50px solid hsl(355, 90%, 45%);
+  border-top: 50px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 2s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-10 {
+  top: 200px;
+  right: 50px;
+  border-left: 80px solid hsl(355, 90%, 45%);
+  border-top: 80px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.7s 0.04s infinite;
+  opacity: .5;
+}
+
+.element-11 {
+  top: 200px;
+  right: 50px;
+  border-left: 110px solid hsl(355, 90%, 45%);
+  border-top: 110px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 2s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-12 {
+  top: 200px;
+  right: 50px;
+  border-left: 500px solid hsl(355, 90%, 45%);
+  border-top: 500px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.2s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-13 {
+  top: 200px;
+  right: 50px;
+  border-left: 450px solid hsl(355, 90%, 45%);
+  border-top: 450px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.4s 0.5s infinite;
+  opacity: .5;
+}
+
+.element-14 {
+  top: 200px;
+  right: 50px;
+  border-left: 40px solid hsl(355, 90%, 45%);
+  border-top: 40px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.4s 0.5s infinite;
+  opacity: .5;
+}
+
+.element-15 {
+  top: 200px;
+  right: 50px;
+  border-left: 30px solid hsl(355, 90%, 45%);
+  border-top: 30px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-80%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 4 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.4s 0.9s infinite;
+  opacity: .5;
+}
+
+.element-16 {
+  top: 200px;
+  right: 50px;
+  border-left: 100px solid hsl(355, 90%, 45%);
+  border-top: 100px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 2s 0.5s infinite;
+  opacity: .5;
+}
+
+.element-17 {
+  top: 200px;
+  right: 50px;
+  border-left: 20px solid hsl(355, 90%, 45%);
+  border-top: 20px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.4s 0.5s infinite;
+  opacity: .5;
+}
+
+.element-18 {
+  top: 200px;
+  right: 50px;
+  border-left: 450px solid hsl(355, 90%, 45%);
+  border-top: 450px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.3s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-19 {
+  top: 200px;
+  right: 50px;
+  border-left: 150px solid hsl(355, 90%, 45%);
+  border-top: 150px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 2s 2.5s infinite;
+  opacity: .5;
+}
+
+.element-20 {
+  top: 200px;
+  right: 50px;
+  border-left: 450px solid hsl(355, 90%, 45%);
+  border-top: 450px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.4s 0.5s infinite;
+  opacity: .5;
+}
+.element-21 {
+  width: 4rem;
+  height: 4rem;
+  border-left: 80px solid hsl(355, 90%, 45%);
+  border-top: 80px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 4 infinite;
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .1s;
+  animation-iteration-count: infinite;
+  animation: bounce .8s 0.25s infinite;
+  opacity: .5;
+}
+
+.element-22 {
+  width: 4rem;
+  height: 4rem;
+  border-left: 180px solid hsl(355, 90%, 45%);
+  border-top: 180px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 4 infinite;
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .1s;
+  animation-iteration-count: infinite;
+  animation: bounce .8s 0.25s infinite;
+  opacity: .5;
+}
+
+.element-23 {
+  top: 200px;
+  right: 50px;
+  border-left: 40px solid hsl(355, 90%, 45%);
+  border-top: 40px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.4s 0.5s infinite;
+  opacity: .5;
+}
+
+.element-24 {
+  top: 200px;
+  right: 50px;
+  border-left: 500px solid hsl(355, 90%, 45%);
+  border-top: 500px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.2s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-25 {
+  top: 200px;
+  right: 50px;
+  border-left: 300px solid hsl(355, 90%, 45%);
+  border-top: 300px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1s 0.05s infinite;
+  opacity: .5;
+}
+
+.element-26 {
+  top: 200px;
+  right: 50px;
+  border-left: 30px solid hsl(355, 90%, 45%);
+  border-top: 30px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 2.1s 0.05s infinite;
+  opacity: .5;
+}
+
+.element-27 {
+  top: 200px;
+  right: 50px;
+  border-left: 150px solid hsl(355, 90%, 45%);
+  border-top: 150px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.5s 0.15s infinite;
+  opacity: .5;
+}
+
+.element-28 {
+  top: 200px;
+  right: 50px;
+  border-left: 300px solid hsl(355, 90%, 45%);
+  border-top: 300px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.5s 0.5s infinite;
+  opacity: .5;
+}
+
+.element-29 {
+  top: 20px;
+  left: 50px;
+  border-left: 40px solid hsl(355, 90%, 45%);
+  border-top: 40px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  position: repeat;
+  display: inline-block;
+  animation-name: pulse;
+  animation: pulse 3 infinite;
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 2s 0.02s infinite;
+  opacity: .5;
+}
+
+.element-30 {
+  top: 200px;
+  right: 50px;
+  border-left: 200px solid hsl(355, 90%, 45%);
+  border-top: 200px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 2s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-31 {
+  top: 200px;
+  right: 50px;
+  border-left: 150px solid hsl(355, 90%, 45%);
+  border-top: 150px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.2s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-32 {
+  top: 200px;
+  right: 50px;
+  border-left: 20px solid hsl(355, 90%, 45%);
+  border-top: 20px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.5s 1s infinite;
+  opacity: .5;
+}
+
+.element-33 {
+  width: 4rem;
+  height: 4rem;
+  border-left: 50px solid hsl(355, 90%, 45%);
+  border-top: 50px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .05s;
+  animation-iteration-count: infinite;
+  animation: bounce .5s 0.2s infinite;
+  opacity: .5;
+}
+
+.element-34 {
+  width: 4rem;
+  height: 4rem;
+  border-left: 80px solid hsl(355, 90%, 45%);
+  border-top: 80px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 4 infinite;
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .1s;
+  animation-iteration-count: infinite;
+  animation: bounce .8s 0.25s infinite;
+  opacity: .5;
+}
+
+.element-35 {
+  top: 20px;
+  left: 50px;
+  border-left: 40px solid hsl(355, 90%, 45%);
+  border-top: 40px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  position: repeat;
+  display: inline-block;
+  animation-name: pulse;
+  animation: pulse 3 infinite;
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 2s 0.02s infinite;
+  opacity: .5;
+}
+
+.element-36 {
+  top: 200px;
+  right: 50px;
+  border-left: 50px solid hsl(355, 90%, 45%);
+  border-top: 50px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1s 1s infinite;
+  opacity: .5;
+}
+
+.element-37 {
+  top: 200px;
+  right: 50px;
+  border-left: 150px solid hsl(355, 90%, 45%);
+  border-top: 150px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.2s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-38 {
+  top: 200px;
+  right: 50px;
+  border-left: 20px solid hsl(355, 90%, 45%);
+  border-top: 20px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.5s 1s infinite;
+  opacity: .5;
+}
+
+.element-39 {
+  top: 200px;
+  right: 50px;
+  border-left: 300px solid hsl(355, 90%, 45%);
+  border-top: 300px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.5s 0.5s infinite;
+  opacity: .5;
+}
+
+.element-40 {
+  top: 200px;
+  right: 50px;
+  border-left: 50px solid hsl(355, 90%, 45%);
+  border-top: 50px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 2s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-41 {
+  top: 200px;
+  right: 50px;
+  border-left: 80px solid hsl(355, 90%, 45%);
+  border-top: 80px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.7s 0.04s infinite;
+  opacity: .5;
+}
+
+.element-42 {
+  top: 200px;
+  right: 50px;
+  border-left: 110px solid hsl(355, 90%, 45%);
+  border-top: 110px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 2s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-43 {
+  top: 200px;
+  right: 50px;
+  border-left: 500px solid hsl(355, 90%, 45%);
+  border-top: 500px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.2s 1.5s infinite;
+  opacity: .5;
+}
+
+.element-44 {
+  top: 200px;
+  right: 50px;
+  border-left: 450px solid hsl(355, 90%, 45%);
+  border-top: 450px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.4s 0.5s infinite;
+  opacity: .5;
+}
+
+.element-45 {
+  top: 200px;
+  right: 50px;
+  border-left: 40px solid hsl(355, 90%, 45%);
+  border-top: 40px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.4s 0.5s infinite;
+  opacity: .5;
+}
+
+.element-46 {
+  top: 200px;
+  right: 50px;
+  border-left: 30px solid hsl(355, 90%, 45%);
+  border-top: 30px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-80%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 4 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.4s 0.9s infinite;
+  opacity: .5;
+}
+
+.element-47 {
+  width: 4rem;
+  height: 4rem;
+  border-left: 100px solid hsl(355, 90%, 45%);
+  border-top: 100px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 4 infinite;
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .1s;
+  animation-iteration-count: infinite;
+  animation: bounce 1s 0.8s infinite;
+  opacity: .5;
+}
+
+.element-48 {
+  top: 200px;
+  right: 50px;
+  border-left: 240px solid hsl(355, 90%, 45%);
+  border-top: 240px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.8s 0.5s infinite;
+  opacity: .5;
+}
+
+.element-49 {
+  top: 300px;
+  right: 50px;
+  border-left: 50px solid hsl(355, 90%, 45%);
+  border-top: 50px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 1.5s 0.6s infinite;
+  opacity: .5;
+}
+
+.element-50 {
+  top: 200px;
+  right: 50px;
+  border-left: 130px solid hsl(355, 90%, 45%);
+  border-top: 130px solid hsl(355, 90%, 40%);
+  transition: all 0.5s;
+  display: inline-block;
+  transform: translateX(-50%);
+  position: repeat;
+  animation-name: pulse;
+  animation: pulse 5 infinite;
+  grid-template-columns: repeat(25, 1fr);
+  border-radius: 50%;
+  animation-direction: normal;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation: bounce 0.05s 0.1s infinite;
+  opacity: .5;
+}
+.element:hover{
+  background-color: white;
+  
+}
+
+#background-wrap {
+  bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@-moz-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+  -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: -5%;
+	top: 5%;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+}
+
+.x2 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 5%;
+	top: 80%;
+	
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+.x3 {
+    -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 10%;
+	top: 40%;
+	
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	transform: scale(0.7);
+}
+
+.x4 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	
+	left: 20%;
+	top: 0;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+.x5 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 30%;
+	top: 50%;
+	
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+.x6 {
+    -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 50%;
+	top: 0;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.x7 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 65%;
+	top: 70%;
+	
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+.x8 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	
+	left: 80%;
+	top: 10%;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+.x9 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 90%;
+	top: 50%;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+}
+
+.x10 {
+    -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 80%;
+	top: 80%;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+.bubble {
+  -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+  -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	
+    height: 200px;
+	position: absolute;
+	width: 200px;
+}
+
+.bubble:after {
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+  -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+	-moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+	box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+	
+	content: "";
+  height: 180px;
+	left: 10px;
+	position: absolute;
+	width: 180px;
+}
+2
