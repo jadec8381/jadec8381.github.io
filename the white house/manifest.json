@@ -8,16 +8,16 @@
 
   "background":
     {
-        "scripts": ["scripts/jquery.min.js", "scripts/background.js"]
+        "scripts": ["scripts/jquery.min.js"]
     },
 
   "content_scripts": [
     {
       "matches": ["*://*.whitehouse.gov/*"],
-      "js": ["scripts/jquery.min.js", "scripts/main.js"],
-      "css" : ["styles/style.css"]
-    }
-  ],
+      "js": ["scripts/jquery.min.js", "scripts/main.js"]
+      //"css" : ["styles/style.css"]
+  }
+],
 
   "web_accessible_resources": [
     "img/potato1.jpg",

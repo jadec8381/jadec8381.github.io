@@ -1,3 +1,10 @@
 function changeHeading (color) {
-	document.getElementById('heading').style.backgroundColor = pink
+	$('#heading').css({'background-color': color})
+	
 }
+
+$('p').click(function() {
+	$('p').css({"background-color": pink});
+}
+
+console.log('hey', 8thing)
