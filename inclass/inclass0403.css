@@ -1,0 +1,20 @@
+html {
+	background-color: grey;
+}
+#animals {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	top: 40%;
+	font-family: "Futura";
+	font-size: 20px;
+
+}
+
+.box {
+	border: 20px blue;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 50%;
+	text-align: center;
+}
