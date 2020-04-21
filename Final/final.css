@@ -1,0 +1,35 @@
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+}
+
+body {
+	background-color: black;
+}
+
+.opening-text1 {
+	top: 50px;
+	right: 20px;
+	position: absolute;
+	margin-right: auto;
+	margin-left: auto;
+	height: 600px;
+	width: 800px;
+	height: 100px;
+	width: 250px;
+	z-index: 99;
+}
+
+.opening-text2 {
+	top: 500px;
+	right: 20px;
+	position: absolute;
+	margin-right: auto;
+	margin-left: auto;
+	height: 600px;
+	width: 800px;
+	height: 100px;
+	width: 250px;
+	z-index: 99;
+}
