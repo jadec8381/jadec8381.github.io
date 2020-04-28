@@ -20,3 +20,14 @@ body {
 	width: 250px;
 	z-index: 99;
 }
+
+@keyframes slide {
+	0% 
+	50% {
+		transform: translate(30vw, 0);
+	}
+	50% {
+		transform: translate(-40vw, 0);
+
+	}
+}

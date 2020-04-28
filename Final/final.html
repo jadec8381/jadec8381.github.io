@@ -4,19 +4,35 @@
 	<title>YAYEET</title>
 	<meta charset="utf-8">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="final.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="final.css" />
 
 </head>
 <body>
 
-<img class="opening-text1" src="/jacey-lab/Final-images/openingtext.gif">
-<img class="opening-text2" src="/jacey-lab/Final-images/openingtext.gif">
+<div class="opening-text1"></div>
+<div class="opening-text2"></div>
 <video width="320" height="240" autoplay>
-	<source src="/jacey-lab/Final-images/openingdancing.mp4" type="openingdancing/mp4">
+	<source src="../Final-images/openingdancing.mp4" type="video/mp4">
 </video>
 <a href="final-2.html">
 		<img class="" src="">
 </body>
+
+	<script type="text/javascript" src="final.js">
+		document.body.style.backgroundColor = "#255320";
+
+		var counter = 0;
+		// mousedown function + creates class in HTML called mouseDownBox + a photoclick variable
+
+		$(window).mousedown(function( event ) {
+			var photoclick + $('<div/', {
+				'class': "mouseDownBox"
+			})
+			// 
+			.css({'top': event.pageY})
+			) 
+		}
+	</script>
 	
 </html>
