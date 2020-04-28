@@ -5,20 +5,8 @@ html {
 }
 
 body {
-	background-color: black;
-}
-
-.youxieshi {
-	top: 500px;
-	right: 20px;
-	position: absolute;
-	margin-right: auto;
-	margin-left: auto;
-	height: 800px;
-	width: 1000px;
-	height: 100px;
-	width: 250px;
-	z-index: 99;
+	background-image: url("../Final-images/windows_default_wallpaper.jpg");
+	background-color: #cccccc;
 }
 
 @keyframes slide {
