@@ -121,7 +121,7 @@ for(var i=0; i<animals.length; i++){
 		.css({'background-color': images[i].image})
 		.click(function(){console.log($(this).data("images").name)})
 
-	$('#animals').append(animalDiv)
+	$('#images').append(imageDiv)
 }
 
 for(var i=0; i<images.length; i++){
