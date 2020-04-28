@@ -7,6 +7,9 @@ html {
 body {
 	background-image: url("../Final-images/windows_default_wallpaper.jpg");
 	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
 }
 
 @keyframes slide {
