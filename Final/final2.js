@@ -95,15 +95,17 @@ for(var i=0; i<5; i++){
 }
 
 for(var i=0; i<5; i++){
-	$('.title').append("<div class='title'>"+images[i] phrases+"<br>"+"</div>")
+	$('.title').append("<div class='title'>"+phrases[i] phrases+"<br>"+"</div>")
 }
+// this is for the phrases appearing on the page
+
 
 for(var i=0; i<images.length; i++){
 	$('#images').append('<div class="box">' + images[i].name + '</div>')
 }
 
 for(var i=0; i<images.length; i++){
-	var animalsDiv = $('<div/>', {
+	var imagesDiv = $('<div/>', {
 			'class': 'box'
 		})
 		.html(images[i].name)
