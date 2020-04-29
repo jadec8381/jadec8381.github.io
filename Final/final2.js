@@ -1,7 +1,9 @@
 var images = [
 	{
 		"name": "有些事",
-		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">'
+		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
+		"left": "'200px'",
+		"top": "'200px'"
 	},
 
 	{
@@ -15,14 +17,20 @@ var images = [
 	},
 
 	{
+		"name": "QQ秀2",
+		"image" : '<img class="" src="../Final-images/qq秀2.gif">'
+	},
+
+	{
+		"name": "QQ秀3",
+		"image" : '<img class="qq_show_3" src="../Final-images/qq秀3.gif">'
+	},
+
+	{
 		"name": "plant1",
 		"image" :'<img class="plant1" src="../Final-images/plant1.gif">'
 	},
 
-	{
-		"name": "QQ秀2",
-		"image" : '<img class="" src="../Final-images/qq秀2.gif">'
-	},
 
 	{
 		"name": "漂亮宝贝不干了",
@@ -39,10 +47,6 @@ var images = [
 		"image" :'<img class="jietoutuya_xizao" src="../Final-images/jietoutuya_xizao.jpg">'
 	},
 
-	{
-		"name": "QQ秀3",
-		"image" : '<img class="qq_show_3" src="../Final-images/qq秀3.gif">'
-	},
 
 	{
 		"name": "ps终于打开了！",
@@ -68,7 +72,6 @@ var images = [
 
 var phrases = [
 	{	"title": "此处不祥，乱涂乱画",
-		"color": "red",
 		"shape": "rectangle",
 	}
 ]
@@ -80,51 +83,45 @@ var audio = [
 	}
 ]
 
-console.log(filterArray)
+// var filterArray = images.filter(function(images){ return images.color === 'red'});
 
-var filterArray = images.filer(function(images){ return images.color === 'red'});
-
-$(".audio").animate({ 
-        top: "-=30px",
+// $(".audio").animate({ 
+        // top: "-=30px",
      
-      }, duration );
-// the above is for audio player animation (bouncing around the page)
+      // }, 1000);
+// the above is for audio player animation (bouncing around the page); work on it later
 
-for(var i=0; i<5; i++){
-	$('.phrases').append('<div style="text-align: center; border-')
-}
+// for(var i=0; i<5; i++){
+// 	 $('.phrases').append('<div style="text-align: center;>')
+// }
 
-for(var i=0; i<5; i++){
-	$('.title').append("<div class='title'>"+phrases[i] phrases+"<br>"+"</div>")
+for(var i=0; i<phrases.length; i++){
+	$('.title').append("<div class='title'>"+phrases[i].title+"<br>"+"</div>")
 }
 // this is for the phrases appearing on the page
 
 
-for(var i=0; i<images.length; i++){
-	$('#images').append('<div class="box">' + images[i].name + '</div>')
+ for(var i=0; i<images.length; i++){
+ 	var imagesDiv = $('<div/>', {
+ 			'class': 'box'
+ 		})
+		.html(images[i].image)
+		.css({'top': images[i].top, 'left': images[i].left})
+
+	$('.images').append(imagesDiv)
 }
 
-for(var i=0; i<images.length; i++){
-	var imagesDiv = $('<div/>', {
-			'class': 'box'
-		})
-		.html(images[i].name)
-		.css({'background-color': images[i].image})
+// for(var i=0; i<images.length; i++){
+// 	var imagesDiv = $('<div/>', {
+// 			'class': 'box'
+// 		})
+// 		.data('image', images[i])
+// 		.html(images[i].name)
+// 		.css({'background-color': images[i].image})
+// 		.click(function(){console.log($(this).data("images").name)})
 
-	$('#images').append(imagesDiv)
-}
-
-for(var i=0; i<animals.length; i++){
-	var imagesDiv = $('<div/>', {
-			'class': 'box'
-		})
-		.data('image', images[i])
-		.html(images[i].name)
-		.css({'background-color': images[i].image})
-		.click(function(){console.log($(this).data("images").name)})
-
-	$('#images').append(imageDiv)
-}
+// 	$('#images').append(imageDiv)
+// }
 
 for(var i=0; i<images.length; i++){
 	var imageDiv = $('<div/>', {
@@ -137,5 +134,5 @@ for(var i=0; i<images.length; i++){
 			$(this).append( '<span> is ' +  $(this).data("images").image + '</span>')
 			})
 
-	$('#images').append(imagesDiv)
+	$('.images').append(imagesDiv)
 }
