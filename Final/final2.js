@@ -8,65 +8,89 @@ var images = [
 
 	{
 		"name": "windows_default_wallpaper",
-		"image" :'<img class="windows_default_wallpaper" src="../Final-images/windows_default_wallpaper.jpg">'
+		"image" :'<img class="windows_default_wallpaper" src="../Final-images/windows_default_wallpaper.jpg">',
+		"left": "'300px",
+		"top": "'400px"
 	},
 
 	{
 		"name": "QQ秀_1",
 		"image" : '<img class="qq_show_1" src="../Final-images/qq秀1.gif">'
+		"left": "'150px",
+		"top": "'100px"
 	},
 
 	{
 		"name": "QQ秀2",
 		"image" : '<img class="" src="../Final-images/qq秀2.gif">'
+		"left": "'60px",
+		"top": "'70px"
 	},
 
 	{
 		"name": "QQ秀3",
 		"image" : '<img class="qq_show_3" src="../Final-images/qq秀3.gif">'
+		"left": "'100px",
+		"top": "'250px"
 	},
 
 	{
 		"name": "plant1",
 		"image" :'<img class="plant1" src="../Final-images/plant1.gif">'
+		"left": "'30px",
+		"top": "'50px"
 	},
 
 
 	{
 		"name": "漂亮宝贝不干了",
 		"image" :'<img class="plbbbgl" src="../Final-images/plbbbgl.jpg">'
+		"left": "'20px",
+		"top": "'40px"
 	},
 
 	{
 		"name": "草，垃圾",
 		"image" : '<img class="jietoutuya_laji" src="../Final-images/jietoutuya_laji.jpg">'
+		"left": "'20px",
+		"top": "'100px"
 	},
 
 	{
 		"name": "上楼洗澡！",
 		"image" :'<img class="jietoutuya_xizao" src="../Final-images/jietoutuya_xizao.jpg">'
+		"left": "'100px",
+		"top": "'100px"
 	},
 
 
 	{
 		"name": "ps终于打开了！",
 		"image" :'<img class="ps_isfinally_opened" src="../Final-images/photoshop终于打开了!.png">'
+		"left": "'150px",
+		"top": "'150px"
 	},
 
 	{
 		"name": "靠危近险",
 		"image" : '<img class="jietoutuya_kaoweijinxian" src="../Final-images/靠危近险.jpg">'
+		"left": "'150px",
+		"top": "'400px"
 	},
 
 	{
 		"name": "pink butterfly accessory",
 		"image" :'<img class="pink_butterfly_accessory" src="../Final-images/粉蝴蝶挂件.gif">'
+		"left": "'200px",
+		"top": "'20px"
 	},
 
 	{
 		"name": "QQ秀4",
 		"color": "red",
 		"image" :'<img class="qq_show_4" src="../Final-images/qq秀4.gif">'
+		"left": "'10px",
+		"top": "'20px"
 	},
 ]
 
