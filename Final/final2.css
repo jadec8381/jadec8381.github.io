@@ -9,6 +9,27 @@ body {
 	background-color: #cccccc;
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow: hidden;
+}
+
+.type-cursor {
+	opacity: 1;
+}
+
+.type-cursor.type-cursor--blink {
+	animation: typedjsBlink 0.7s infinite;
+	-webkit-animation: typedjsBlink 0.7s infinite;
+			animation: typejsBlink 0.7s infinite;
+}
+
+@keyframes typedjsBlink {
+	50% { opacity: 0.0; }
+}
+
+@-webkit-keyframes typedjsBlink {
+	0% { opacity: 1; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1; }
 }
 
 @keyframes slide {
@@ -20,4 +41,8 @@ body {
 		transform: translate(-40vw, 0);
 
 	}
+}
+
+#borderImage {
+	border:;
 }
