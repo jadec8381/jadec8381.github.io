@@ -10,9 +10,23 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
+	border: 30px solid transparent;
+	padding: 50px;
+	border-image: url("../Final-images/粉蝴蝶挂件.gif") 50 round;
+	cursor: url("../Final-images/plant2.gif"), auto;
 }
 
-.type-cursor {
+.cursor {
+	cursor: url("../Final-images/plant2.gif"), auto;
+}
+
+.borderimg {
+	border: 30px solid transparent;
+	padding: 50px;
+	border-image: url("../Final-images/粉蝴蝶挂件.gif") 50 round;
+	cursor: url("../Final-images/plant2.gif"), auto;
+}
+/*.type-cursor {
 	opacity: 1;
 }
 
@@ -24,15 +38,15 @@ body {
 
 @keyframes typedjsBlink {
 	50% { opacity: 0.0; }
-}
+}*/
 
-@-webkit-keyframes typedjsBlink {
+/*@-webkit-keyframes typedjsBlink {
 	0% { opacity: 1; }
 	50% { opacity: 0.0; }
 	100% { opacity: 1; }
-}
+}*/
 
-@keyframes slide {
+/*@keyframes slide {
 	0% 
 	50% {
 		transform: translate(30vw, 0);
@@ -41,8 +55,4 @@ body {
 		transform: translate(-40vw, 0);
 
 	}
-}
-
-#borderImage {
-	border:;
-}
+}*/

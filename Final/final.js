@@ -1,19 +1,43 @@
 var images = [
 	{
 		"name": "影流之主1",
-		"color": "red",
-		"image" : '<img class="opening-text1" src="../Final-images/openingtext.gif">'
+		"image" : '<img class="opening-text1" src="../Final-images/openingtext.gif">',
+		"left": "500px",
+		"top": "100px",
 	},
 
 	{
-		"name": "影流之主2",
-		"color": "red",
-		"image" :'<img class="opening-text1" src="../Final-images/openingtext.gif">'
+		"name": "影流之主1",
+		"image" :'<img class="opening-text1" src="../Final-images/openingtext.gif">',
+		"left": "500px",
+		"top": "600px",
 	},
+
+	// {
+	// 	"name": "黄玫瑰",
+	// 	"image" :'<img class="plant3" src="../Final-images/plant3.gif">',
+	// },
+
 ]
 
-console.log(images[0].image)
 
-$('.opening-text1').append(images[0].image)
+ for(var i=0; i<images.length; i++){
+ 	var imagesDiv = $('<div/>', {
+ 			'class': 'box'
+ 		})
+		.html(images[i].image)
+		.css({
+			'position':'absolute',
+			'width':'50vh',
+			'top': images[i].top, 
+			'left': images[i].left})
 
-$('.opening-text2').append(images[0].image)
+	$('.images').append(imagesDiv)
+}
+
+$('.borderimg1').css({
+                  "border" : "10px solid transparent",
+                  "padding" : "10px",
+                  "border-image" : "url(../Final-images/plant3.gif) 30 round"
+                })
+

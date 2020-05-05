@@ -2,9 +2,41 @@ var images = [
 	{
 		"name": "有些事",
 		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
-		"left": "500px",
+		"left": "550px",
 		"top": "20px",
-		"theme": "meme"
+		"collections": "b_decoration"
+	},
+
+	{
+		"name": "有些事",
+		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
+		"left": "250px",
+		"top": "20px",
+		"collections": "b_decoration"
+	},
+
+	{
+		"name": "有些事",
+		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
+		"left": "-50px",
+		"top": "20px",
+		"collections": "b_decoration"
+	},
+
+	{
+		"name": "有些事",
+		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
+		"left": "850px",
+		"top": "20px",
+		"collections": "b_decoration"
+	},
+
+	{
+		"name": "有些事",
+		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
+		"left": "1150px",
+		"top": "20px",
+		"collections": "b_decoration"
 	},
 
 	// {
@@ -18,101 +50,119 @@ var images = [
 	{
 		"name": "QQ秀_1",
 		"image" : '<img class="qq_show_1" src="../Final-images/qq秀1.gif">',
-		"left": "100px",
+		"left": "500px",
 		"top": "200px",
-		"theme": "qqshow",
+		"collections": "a_qqshow",
 	},
 
 	{
 		"name": "QQ秀2",
 		"image" : '<img class="" src="../Final-images/qq秀2.gif">',
-		"left": "60px",
-		"top": "100px",
-		"theme": "qqshow",
+		"left": "100px",
+		"top": "200px",
+		"collections": "a_qqshow",
 	},
 
 	{
 		"name": "QQ秀3",
 		"image" : '<img class="qq_show_3" src="../Final-images/qq秀3.gif">',
-		"left": "100px",
-		"top": "250px",
-		"theme": "qqshow",
+		"left": "500px",
+		"top": "200px",
+		"collections": "a_qqshow",
 	},
 
 	{
-		"name": "plant1",
-		"image" :'<img class="plant1" src="../Final-images/plant1.gif">',
-		"left": "30px",
-		"top": "50px",
-		"theme": "decoration",
+		"name": "QQ秀4",
+		"image" :'<img class="qq_show_4" src="../Final-images/qq秀4.gif">',
+		"left": "600px",
+		"top": "200px",
+		"collections": "a_qqshow",
 	},
-
 
 	{
 		"name": "漂亮宝贝不干了",
 		"image" :'<img class="plbbbgl" src="../Final-images/plbbbgl.jpg">',
-		"left": "10px",
-		"top": "400px",
-		"theme": "meme",
+		"left": "500px",
+		"top": "200px",
+		"collections": "c_meme",
 	},
 
 	{
 		"name": "草，垃圾",
 		"image" : '<img class="jietoutuya_laji" src="../Final-images/jietoutuya_laji.jpg">',
-		"left": "20px",
+		"left": "0px",
 		"top": "100px",
-		"theme": "meme",
+		"collections": "c_meme",
 	},
 
 	{
 		"name": "上楼洗澡！",
 		"image" :'<img class="jietoutuya_xizao" src="../Final-images/jietoutuya_xizao.jpg">',
-		"left": "100px",
+		"left": "500px",
 		"top": "100px",
-		"theme": "meme",
+		"collections": "c_meme",
 	},
 
 
 	{
 		"name": "ps终于打开了！",
 		"image" :'<img class="ps_isfinally_opened" src="../Final-images/photoshop终于打开了!.png">',
-		"left": "500px",
+		"left": "0px",
 		"top": "600px",
-		"theme": "meme",
+		"collections": "c_meme",
 	},
 
 	{
 		"name": "靠危近险",
 		"image" : '<img class="jietoutuya_kaoweijinxian" src="../Final-images/靠危近险.jpg">',
-		"left": "500px",
-		"top": "400px",
-		"theme": "meme",
+		"left": "800px",
+		"top": "100px",
+		"collections": "c_meme",
 	},
 
 	{
 		"name": "pink_butterfly_accessory",
 		"image" :'<img class="pink_butterfly_accessory" src="../Final-images/粉蝴蝶挂件.gif">',
-		"left": "100px",
+		"left": "250px",
 		"top": "20px",
 		"position": "fixed",
-		"theme": "decoration",
+		"collections": "b_decoration",
 	},
 
 	{
-		"name": "QQ秀4",
-		"color": "red",
-		"image" :'<img class="qq_show_4" src="../Final-images/qq秀4.gif">',
-		"left": "10px",
+		"name": "pink_butterfly_accessory2",
+		"image" :'<img class="pink_butterfly_accessory" src="../Final-images/粉蝴蝶挂件.gif">',
+		"left": "1000px",
 		"top": "20px",
-		"theme": "qqshow",
+		"position": "fixed",
+		"collections": "b_decoration",
 	},
+
+	{
+		"name": "plant1",
+		"image" :'<img class="plant1" src="../Final-images/plant1.gif">',
+		"left": "10px",
+		"top": "450px",
+		"collections": "b_decoration",
+	},
+
+	{
+		"name": "plant1",
+		"image" :'<img class="plant1" src="../Final-images/plant1.gif">',
+		"left": "1010px",
+		"top": "450px",
+		"collections": "b_decoration",
+	},
+
+
+
 ]
 
 var phrases = [
 	{	"title": "此处不祥，乱涂乱画",
-		"shape": "rectangle",
-		"left": "50px",
-		"top": "100px",
+		"left": "500px",
+		"top": "200px",
+		"font-size": "100px",
 		"position": "fixed",
 	}
 ]
@@ -136,6 +186,17 @@ var audio = [
 // 	 $('.phrases').append('<div style="text-align: center;>')
 // }
 
+
+for (var i=0; i<images.length; i++){
+	var imagesDiv = $('<div/>', {
+		'class': 'box'
+	})
+	.html(images[i].image)
+	.css({
+
+	})
+}
+
 for(var i=0; i<phrases.length; i++){
 	$('.title').append("<div class='title'>"+phrases[i].title+"<br>"+"</div>")
 }
@@ -149,12 +210,28 @@ for(var i=0; i<phrases.length; i++){
 		.html(images[i].image)
 		.css({
 			'position':'absolute',
-			'width':'20vh',
+			'width':'50px',
 			'top': images[i].top, 
 			'left': images[i].left})
 
 	$('.images').append(imagesDiv)
 }
+
+for(var i=0; i<phrases.length; i++){
+ 	var phrasesDiv = $('<div/>', {
+ 			'class': 'box'
+ 		})
+		.html(phrases[i].phrase)
+		.css({
+			'position':'absolute',
+			'font-size': phrases[i].font-size,
+			'top': phrases[i].top, 
+			'left': phrases[i].left})
+
+	$('.phrases').append(phrasesDiv)
+}
+
+
 
 // the below js code is for typewriting animation effect; code from Geoff Graham: https://css-tricks.com/snippets/css/typewriter-effect/
 // var TxtType = function(el, toRotate, period) {
@@ -219,16 +296,27 @@ for(var i=0; i<phrases.length; i++){
 
 
 
-images.sort(function(a, b) {
-	if (a.theme > b.theme) {
-		return 1;
-	}
-	if (a.theme < b.theme) {
+// images.sort(function(a, b) {
+// 	if (a.collections > b.collections) {
+// 		return 1;
+// 	}
+// 	if (a.collections < b.collections) {
+// 		return -1;
+// 	}
+// 	return 0;
+// });
+
+images.sort(function (a,b) {
+	var collectionsA = a.collections.toUpperCase();
+	var collectionsB = b.collections.toUpperCase();
+	if (collectionsA < collectionsB) {
 		return -1;
+	}
+	if (collectionsA > collectionsB) {
+		return 1;
 	}
 	return 0;
 });
-
 
 // for(var i=0; i<images.length; i++){
 // 	var imagesDiv = $('<div/>', {

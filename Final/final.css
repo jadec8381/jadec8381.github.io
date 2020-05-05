@@ -6,30 +6,28 @@ html {
 
 body {
 	background-color: black;
+	border-image: url("../Final-images/plant3.gif") 50 round;
+	padding: 50px;
+	overflow: hidden;
 }
 
-.opening-text1 {
-	top: 50px;
-	right: 20px;
-	position: absolute;
-	margin-right: auto;
-	margin-left: auto;
-	height: 600px;
-	width: 800px;
-	height: 100px;
-	width: 250px;
-	z-index: 99;
+.borderimg1 {
+	border: 30px solid transparent;
+	padding: 300px;
+	border-image: url("../Final-images/plant3.gif") 50 round;
+	cursor: url("../Final-images/plant2.gif"), auto;
+	border-image-repeat: repeat;
 }
 
-.opening-text2 {
-	top: 500px;
-	right: 20px;
-	position: absolute;
-	margin-right: auto;
-	margin-left: auto;
-	height: 600px;
-	width: 800px;
-	height: 100px;
-	width: 250px;
-	z-index: 99;
+.borderimg2 {
+	border: 40px solid transparent;
+	padding: 300px;
+	border-image: url("../Final-images/plant3.gif") 50 round;
+	cursor: url("../Final-images/plant2.gif"), auto;
+}
+
+#openingdance {
+	top: 200px;
+	left: 500px;
+	size: 50px;
 }
