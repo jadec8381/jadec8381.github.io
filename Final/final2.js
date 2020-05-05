@@ -217,19 +217,19 @@ for(var i=0; i<phrases.length; i++){
 	$('.images').append(imagesDiv)
 }
 
-for(var i=0; i<phrases.length; i++){
- 	var phrasesDiv = $('<div/>', {
- 			'class': 'box'
- 		})
-		.html(phrases[i].phrase)
-		.css({
-			'position':'absolute',
-			'font-size': phrases[i].font-size,
-			'top': phrases[i].top, 
-			'left': phrases[i].left})
+// for(var i=0; i<phrases.length; i++){
+//  	var phrasesDiv = $('<div/>', {
+//  			'class': 'box'
+//  		})
+// 		.html(phrases[i].phrase)
+// 		.css({
+// 			'position':'absolute',
+// 			'font-size': phrases[i].font-size,
+// 			'top': phrases[i].top, 
+// 			'left': phrases[i].left})
 
-	$('.phrases').append(phrasesDiv)
-}
+// 	$('.phrases').append(phrasesDiv)
+// }
 
 
 
@@ -317,6 +317,7 @@ images.sort(function (a,b) {
 	}
 	return 0;
 });
+
 
 // for(var i=0; i<images.length; i++){
 // 	var imagesDiv = $('<div/>', {
