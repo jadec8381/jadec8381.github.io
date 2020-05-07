@@ -167,7 +167,7 @@ var images = [
 	{
 		"name": "草，垃圾",
 		"image" : '<img class="jietoutuya_laji" src="../Final-images/jietoutuya_laji.jpg">',
-		"left": "400px",
+		"left": "420px",
 		"top": "450px",
 		"width": "600",
 		"zIndex": "4",
