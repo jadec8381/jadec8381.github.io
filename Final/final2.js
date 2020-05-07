@@ -4,6 +4,8 @@ var images = [
 		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
 		"left": "550px",
 		"top": "20px",
+		"width": "500px",
+		"zIndex": "5",
 		"collections": "b_decoration"
 	},
 
@@ -12,6 +14,8 @@ var images = [
 		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
 		"left": "250px",
 		"top": "20px",
+		"zIndex": "5",
+		"width": "500px",
 		"collections": "b_decoration"
 	},
 
@@ -20,6 +24,8 @@ var images = [
 		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
 		"left": "-50px",
 		"top": "20px",
+		"zIndex": "5",
+		"width": "500px",
 		"collections": "b_decoration"
 	},
 
@@ -28,6 +34,8 @@ var images = [
 		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
 		"left": "850px",
 		"top": "20px",
+		"zIndex": "5",
+		"width": "500px",
 		"collections": "b_decoration"
 	},
 
@@ -36,6 +44,59 @@ var images = [
 		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
 		"left": "1150px",
 		"top": "20px",
+		"zIndex": "5",
+		"width": "500px",
+		"collections": "b_decoration"
+	},
+
+// 
+	{
+		"name": "有些事",
+		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
+		"left": "550px",
+		"top": "600px",
+		"width": "500px",
+		"zIndex": "9",
+		"collections": "b_decoration"
+	},
+
+	{
+		"name": "有些事",
+		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
+		"left": "250px",
+		"top": "600px",
+		"zIndex": "9",
+		"width": "500px",
+		"collections": "b_decoration"
+	},
+
+	{
+		"name": "有些事",
+		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
+		"left": "-50px",
+		"top": "600px",
+		"zIndex": "9",
+		"width": "500px",
+		"collections": "b_decoration"
+	},
+
+	{
+		"name": "有些事",
+		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
+		"left": "850px",
+		"top": "600px",
+		"zIndex": "9",
+		"width": "500px",
+		"collections": "b_decoration"
+	},
+
+	{
+		"name": "有些事",
+		"image" : '<img class="youxieshi" src="../Final-images/有些事.gif">',
+		"left": "1150px",
+		"top": "600px",
+		"zIndex": "9",
+		"width": "500px",
 		"collections": "b_decoration"
 	},
 
@@ -50,56 +111,75 @@ var images = [
 	{
 		"name": "QQ秀_1",
 		"image" : '<img class="qq_show_1" src="../Final-images/qq秀1.gif">',
-		"left": "500px",
-		"top": "200px",
+		"left": "600px",
+		"top": "300px",
+		"zIndex": "10",
+		"width": "200px",
 		"collections": "a_qqshow",
 	},
 
 	{
 		"name": "QQ秀2",
 		"image" : '<img class="" src="../Final-images/qq秀2.gif">',
-		"left": "100px",
-		"top": "200px",
+		"left": "400px",
+		"top": "350px",
+		"zIndex": "10",
 		"collections": "a_qqshow",
 	},
 
 	{
 		"name": "QQ秀3",
 		"image" : '<img class="qq_show_3" src="../Final-images/qq秀3.gif">',
-		"left": "500px",
-		"top": "200px",
+		"left": "800px",
+		"top": "335px",
+		"zIndex": "10",
 		"collections": "a_qqshow",
 	},
 
 	{
 		"name": "QQ秀4",
 		"image" :'<img class="qq_show_4" src="../Final-images/qq秀4.gif">',
-		"left": "600px",
-		"top": "200px",
+		"left": "930px",
+		"top": "330px",
+		"zIndex": "10",
 		"collections": "a_qqshow",
 	},
 
 	{
 		"name": "漂亮宝贝不干了",
 		"image" :'<img class="plbbbgl" src="../Final-images/plbbbgl.jpg">',
-		"left": "500px",
-		"top": "200px",
+		"left": "1090px",
+		"top": "100px",
+		"width": "350px",
+		"zIndex": "3",
 		"collections": "c_meme",
 	},
 
 	{
+		"name": "整天瞎几把忙还不赚钱",
+		"image" :'<img class="meiqian" src="../Final-images/jietoutuya_meiqian.jpg">',
+		"left": "1090px",
+		"top": "450px",
+		"width": "350px",
+		"zIndex": "3",
+		"collections": "c_meme",
+	},
+	{
 		"name": "草，垃圾",
 		"image" : '<img class="jietoutuya_laji" src="../Final-images/jietoutuya_laji.jpg">',
-		"left": "0px",
-		"top": "100px",
+		"left": "400px",
+		"top": "450px",
+		"width": "600",
+		"zIndex": "4",
 		"collections": "c_meme",
 	},
 
 	{
 		"name": "上楼洗澡！",
 		"image" :'<img class="jietoutuya_xizao" src="../Final-images/jietoutuya_xizao.jpg">',
-		"left": "500px",
-		"top": "100px",
+		"left": "0px",
+		"top": "450px",
+		"width": "350px",
 		"collections": "c_meme",
 	},
 
@@ -107,16 +187,19 @@ var images = [
 	{
 		"name": "ps终于打开了！",
 		"image" :'<img class="ps_isfinally_opened" src="../Final-images/photoshop终于打开了!.png">',
-		"left": "0px",
-		"top": "600px",
+		"left": "350px",
+		"top": "100px",
+		"width": "740px",
+		"zIndex": "4",
 		"collections": "c_meme",
 	},
 
 	{
 		"name": "靠危近险",
 		"image" : '<img class="jietoutuya_kaoweijinxian" src="../Final-images/靠危近险.jpg">',
-		"left": "800px",
+		"left": "0px",
 		"top": "100px",
+		"width": "350px",
 		"collections": "c_meme",
 	},
 
@@ -126,6 +209,7 @@ var images = [
 		"left": "250px",
 		"top": "20px",
 		"position": "fixed",
+		"zIndex": "9",
 		"collections": "b_decoration",
 	},
 
@@ -135,6 +219,7 @@ var images = [
 		"left": "1000px",
 		"top": "20px",
 		"position": "fixed",
+		"zIndex": "9",
 		"collections": "b_decoration",
 	},
 
@@ -142,15 +227,17 @@ var images = [
 		"name": "plant1",
 		"image" :'<img class="plant1" src="../Final-images/plant1.gif">',
 		"left": "10px",
-		"top": "450px",
+		"top": "460px",
+		"width": "500",
 		"collections": "b_decoration",
 	},
 
 	{
-		"name": "plant1",
+		"name": "plant2",
 		"image" :'<img class="plant1" src="../Final-images/plant1.gif">',
 		"left": "1010px",
-		"top": "450px",
+		"top": "460px",
+		"width": "500",
 		"collections": "b_decoration",
 	},
 
@@ -210,12 +297,16 @@ for(var i=0; i<phrases.length; i++){
 		.html(images[i].image)
 		.css({
 			'position':'absolute',
-			'width':'50px',
+			'width': images[i].width,
+			'z-index': images[i].zIndex, 
 			'top': images[i].top, 
 			'left': images[i].left})
 
 	$('.images').append(imagesDiv)
 }
+
+$('img').css({ "max-width": "100%", "max-height" : "100%"})
+
 
 // for(var i=0; i<phrases.length; i++){
 //  	var phrasesDiv = $('<div/>', {
@@ -296,27 +387,29 @@ for(var i=0; i<phrases.length; i++){
 
 
 
-// images.sort(function(a, b) {
-// 	if (a.collections > b.collections) {
-// 		return 1;
-// 	}
-// 	if (a.collections < b.collections) {
-// 		return -1;
-// 	}
-// 	return 0;
-// });
-
-images.sort(function (a,b) {
-	var collectionsA = a.collections.toUpperCase();
-	var collectionsB = b.collections.toUpperCase();
-	if (collectionsA < collectionsB) {
-		return -1;
-	}
-	if (collectionsA > collectionsB) {
+images.sort(function(a, b) {
+	if (a.collections > b.collections) {
 		return 1;
+	}
+	if (a.collections < b.collections) {
+		return -1;
 	}
 	return 0;
 });
+
+console.log(images);
+
+// images.sort(function (a,b) {
+// 	var collectionsA = a.collections.toUpperCase();
+// 	var collectionsB = b.collections.toUpperCase();
+// 	if (collectionsA < collectionsB) {
+// 		return -1;
+// 	}
+// 	if (collectionsA > collectionsB) {
+// 		return 1;
+// 	}
+// 	return 0;
+// });
 
 
 // for(var i=0; i<images.length; i++){

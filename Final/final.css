@@ -12,8 +12,9 @@ body {
 }
 
 .borderimg1 {
-	border: 30px solid transparent;
-	padding: 300px;
+	border: 10px solid transparent;
+	padding: 240px;
+	top: 30px;
 	border-image: url("../Final-images/plant3.gif") 50 round;
 	cursor: url("../Final-images/plant2.gif"), auto;
 	border-image-repeat: repeat;
@@ -26,8 +27,26 @@ body {
 	cursor: url("../Final-images/plant2.gif"), auto;
 }
 
-#openingdance {
+.opening {
+	margin: 0 auto;
+	z-index: 8;
 	top: 200px;
-	left: 500px;
-	size: 50px;
+	left: 100px;
+	position: fixed;
 }
+
+/*.cursor {
+	cursor: url("../Final-images/plant2.gif"), auto;
+}
+
+.container {
+	cursor: url("../Final-images/plant2.gif"),auto ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: 10vmin;
+    grid-column-gap: 20vmin;
+    grid-row-gap: 0vmin;
+    justify-content: center;
+    align-content: center;
+    background-color: inherit;*/
+ 	
